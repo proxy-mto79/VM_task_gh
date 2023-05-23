@@ -30,17 +30,21 @@
       ansible.builtin.stat:
         path: "{{ item }}"
       loop: "{{ dirs }}"
-      register: result_stat_dirs
+      register: result
+
+    - name: check output task above
+      ansible.builtin.stat:
+        msg: "{{ result }}"
 
     - name: do something if directory exists
       ansible.builtin.debug: 
         msg: "Directory exists."
-      when: (result_stat_dirs.isdir is defined) and (result_stat_dirs.isdir)
+      when: (result.stat.isdir is defined) and (result.stat.isdir)
 
     - name: do something when directory DOES NOT exists
       ansible.builtin.debug: 
         msg: "Directory does not exist."
-      when: (result_stat_dirs.isdir is undefined) or (not result_stat_dirs.isdir)
+      when: (result.stat.isdir is undefined) or (not result.stat.isdir)
 
 
 
