@@ -81,7 +81,9 @@
         Files: "{{ Files + [item.path]}}"
       with_items: "{{ attempt_3000.files }}"
 
-
+    - name: check task above
+      ansible.builtin.debug:
+        msg: "{{ Files }}"
 
 
 
