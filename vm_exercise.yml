@@ -79,7 +79,7 @@
     - name: Adding files to the list
       set_fact:
         Files: "{{ Files + [item.path]}}"
-      with_items: "{{ output.files }}"
+      with_items: "{{ attempt_3000.files }}"
 
 # fatal: [10.0.2.4]: FAILED! => {"msg": "'output' is undefined. 'output' is undefined"}
 
