@@ -10,6 +10,7 @@
       - "/opt/data1"
       - "/opt/data2"
       - "/opt/data3"
+    Files: []
 
   tasks:
 
@@ -47,6 +48,7 @@
       when: (result.stat.isdir is undefined) or (not result.stat.isdir)
 
 
+# trying another method
 
     - name: Find directory using patterns     # this gives no usefull output, right?
       ansible.builtin.find:
@@ -64,6 +66,22 @@
       ansible.builtin.debug:
         msg: "{{ foud_pattern_matches.files }}"
 
+
+# trying yet another method
+
+    - name: Find files (directories)
+      find: 
+        paths: "{{ search_path }}"
+        file_type: directory
+        recurse: no
+      register: attempt_3000
+
+    - name: Adding files to the list
+      set_fact:
+        Files: "{{ Files + [item.path]}}"
+      with_items: "{{ output.files }}"
+
+# fatal: [10.0.2.4]: FAILED! => {"msg": "'output' is undefined. 'output' is undefined"}
 
 
 
