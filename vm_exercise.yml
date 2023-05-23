@@ -1,0 +1,47 @@
+---
+- name: virtual machines exercise
+  hosts: fedora
+  gather_facts: false
+
+  vars:
+    search_path: /opt
+    id: data
+    dirs:
+      - "/opt/data1"
+      - "/opt/data2"
+      - "/opt/data3"
+
+  tasks:
+
+    - block:
+        - ansible.builtin.wait_for_connection:
+            sleep: 1
+            timeout: 10
+      rescue:
+        - ansible.builtin.debug:
+            msg: "{{ inventory_hostname }} not connected. End of host."
+        - meta: clear_host_errors
+        - meta: end_host
+    - debug:
+        msg: "{{ inventory_hostname }} is running."
+    - setup:
+
+    - name: check if directory exists
+      ansible.builtin.stat:
+        path: "{{ item }}"
+      loop: "{{ dirs }}"
+      register: result_stat_dirs
+
+    - name: do something if directory exists
+      ansible.builtin.debug: 
+        msg: "Directory exists."
+      when: (result_stat_dirs.isdir is defined) and (result_stat_dirs.isdir)
+
+    - name: do something when directory DOES NOT exists
+      ansible.builtin.debug: 
+        msg: "Directory does not exist."
+      when: (result_stat_dirs.isdir is undefined) or (not result_stat_dirs.isdir)
+
+
+
+  
