@@ -48,5 +48,23 @@
 
 
 
+    - name: Find directory using patterns     # this gives no usefull output, right?
+      ansible.builtin.find:
+        paths: "{{ search_path }}"
+        file_type: directory
+        patterns: "{{ dirs }}"
+        recurse: yes
+      register: found_pattern_matches
+
+    - name: check task above
+      ansible.builtin.debug:
+        msg: "{{ found_pattern_matches }}"
+
+    - name: msg files attempt
+      ansible.builtin.debug:
+        msg: "{{ foud_pattern_matches.files }}"
+
+
+
 
   
