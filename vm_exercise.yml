@@ -81,7 +81,7 @@
         Files: "{{ Files + [item.path]}}"
       with_items: "{{ attempt_3000.files }}"
 
-# fatal: [10.0.2.4]: FAILED! => {"msg": "'output' is undefined. 'output' is undefined"}
+
 
 
 
