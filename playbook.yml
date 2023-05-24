@@ -1,0 +1,54 @@
+---
+- name: "Ansible Excercise"
+  hosts: localhost
+  gather_facts: true
+
+  tasks:                 
+    - name: "Check if host is reachable"
+      ansible.builtin.wait_for:
+        host: "{{ target }}"
+        port: 22
+        timeout: 5
+        state: started
+      register: _result_host_reachable
+      ignore_errors: true
+
+    - name: "Print if target is reachable"
+      ansible.builtin.debug:
+        msg: >
+          Host {{ target }} is
+          {{ 'reachable' if _result_host_reachable is succeeded else 'not reachable' }}
+      failed_when: 
+       - _result_host_reachable is failed
+       - target is not defined    
+
+    - name: "Check directories exist"
+      ansible.builtin.stat:
+        path: "{{ item }}"
+      loop: "{{ directories }}"
+      register: _result_stat_directories
+      delegate_to: "{{ target }}"
+
+    - name: "Print missing directories"
+      ansible.builtin.debug:
+        msg: "The following directories were not found: {{ list_missing_dirs }}"
+      vars:
+        list_missing_dirs: "{{ _result_stat_directories.results | rejectattr('stat.exists') | map(attribute='item') | list }}"
+      when: list_missing_dirs | length > 0
+      failed_when: list_missing_dirs | length > 0
+      
+    - name: "Make sure /opt/backup exists on localhost"
+      ansible.builtin.file:
+        path: /opt/backup
+        state: directory
+        mode: '0755'
+
+    - name: "Download directory and all of it content to /opt/backup/yyyy-mmm-dd"
+      ansible.builtin.fetch:
+        src: "{{ item }}"
+        dest: /opt/backup/{{ ansible_facts['ansible_date_time'].date }}/{{ target }}
+        mode: pull
+      loop: "{{ directories }}"
+      delegate_to: "{{ target }}"                    
+
+...

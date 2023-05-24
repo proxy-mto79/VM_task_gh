@@ -1,0 +1,84 @@
+2023-05-24 14:13:56,204 p=46522 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 14:14:01,804 p=46548 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 14:14:01,804 p=46546 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 14:14:02,099 p=46556 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 14:14:03,155 p=46583 u=mto n=ansible | [WARNING]: Error getting vault password file (default): The vault password file
+/home/mto/Data/Proxy/Learning/VM_task_gh/secret was not found
+
+2023-05-24 14:14:03,155 p=46583 u=mto n=ansible | ERROR! The vault password file /home/mto/Data/Proxy/Learning/VM_task_gh/secret was not found
+2023-05-24 14:16:48,201 p=46865 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 14:16:49,569 p=46896 u=mto n=ansible | [WARNING]: Error getting vault password file (default): The vault password file
+/home/mto/Data/Proxy/Learning/VM_task_gh/secret was not found
+
+2023-05-24 14:16:49,569 p=46896 u=mto n=ansible | ERROR! The vault password file /home/mto/Data/Proxy/Learning/VM_task_gh/secret was not found
+2023-05-24 14:16:50,537 p=46899 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 14:16:50,607 p=46900 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 14:19:35,029 p=47533 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 14:19:36,375 p=47576 u=mto n=ansible | [WARNING]: Error getting vault password file (default): The vault password file
+/home/mto/Data/Proxy/Learning/VM_task_gh/secret was not found
+
+2023-05-24 14:19:36,375 p=47576 u=mto n=ansible | ERROR! The vault password file /home/mto/Data/Proxy/Learning/VM_task_gh/secret was not found
+2023-05-24 14:19:37,410 p=47586 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 14:19:37,450 p=47587 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 14:25:08,284 p=48195 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 14:25:27,969 p=48237 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 14:25:56,845 p=48300 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 14:27:02,675 p=48390 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 14:27:04,699 p=48402 u=mto n=ansible | [WARNING]: Error getting vault password file (default): The vault password file
+/home/mto/Data/Proxy/Learning/VM_task_gh/secret was not found
+
+2023-05-24 14:27:04,699 p=48402 u=mto n=ansible | ERROR! The vault password file /home/mto/Data/Proxy/Learning/VM_task_gh/secret was not found
+2023-05-24 14:28:21,954 p=48511 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 14:29:24,525 p=48569 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 14:29:25,826 p=48589 u=mto n=ansible | [WARNING]: Error getting vault password file (default): The vault password file
+/home/mto/Data/Proxy/Learning/VM_task_gh/secret was not found
+
+2023-05-24 14:29:25,826 p=48589 u=mto n=ansible | ERROR! The vault password file /home/mto/Data/Proxy/Learning/VM_task_gh/secret was not found
+2023-05-24 14:43:41,698 p=49743 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 14:45:45,082 p=49996 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 14:46:34,557 p=50126 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 14:53:33,397 p=50528 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 14:56:30,167 p=50707 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 14:56:31,478 p=50726 u=mto n=ansible | [WARNING]: Error getting vault password file (default): The vault password file
+/home/mto/Data/Proxy/Learning/VM_task_gh/secret was not found
+
+2023-05-24 14:56:31,478 p=50726 u=mto n=ansible | ERROR! The vault password file /home/mto/Data/Proxy/Learning/VM_task_gh/secret was not found
+2023-05-24 15:02:34,554 p=51254 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 15:02:35,838 p=51275 u=mto n=ansible | [WARNING]: Error getting vault password file (default): The vault password file
+/home/mto/Data/Proxy/Learning/VM_task_gh/secret was not found
+
+2023-05-24 15:02:35,838 p=51275 u=mto n=ansible | ERROR! The vault password file /home/mto/Data/Proxy/Learning/VM_task_gh/secret was not found
+2023-05-24 15:04:19,818 p=51408 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 15:07:09,376 p=51643 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 15:09:06,016 p=51748 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 15:10:45,270 p=51892 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 15:13:03,871 p=52008 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 15:13:05,178 p=52026 u=mto n=ansible | [WARNING]: Error getting vault password file (default): The vault password file
+/home/mto/Data/Proxy/Learning/VM_task_gh/secret was not found
+
+2023-05-24 15:13:05,178 p=52026 u=mto n=ansible | ERROR! The vault password file /home/mto/Data/Proxy/Learning/VM_task_gh/secret was not found
+2023-05-24 15:18:00,664 p=52350 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 15:24:14,454 p=52723 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 15:37:39,999 p=54057 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 15:38:04,833 p=54115 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 15:38:06,098 p=54133 u=mto n=ansible | [WARNING]: Error getting vault password file (default): The vault password file
+/home/mto/Data/Proxy/Learning/VM_task_gh/secret was not found
+
+2023-05-24 15:38:06,098 p=54133 u=mto n=ansible | ERROR! The vault password file /home/mto/Data/Proxy/Learning/VM_task_gh/secret was not found
+2023-05-24 15:38:55,658 p=54198 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 15:43:10,818 p=54479 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 15:43:12,090 p=54497 u=mto n=ansible | [WARNING]: Error getting vault password file (default): The vault password file
+/home/mto/Data/Proxy/Learning/VM_task_gh/secret was not found
+
+2023-05-24 15:43:12,091 p=54497 u=mto n=ansible | ERROR! The vault password file /home/mto/Data/Proxy/Learning/VM_task_gh/secret was not found
+2023-05-24 15:44:52,033 p=54580 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 15:44:53,332 p=54598 u=mto n=ansible | [WARNING]: Error getting vault password file (default): The vault password file
+/home/mto/Data/Proxy/Learning/VM_task_gh/secret was not found
+
+2023-05-24 15:44:53,332 p=54598 u=mto n=ansible | ERROR! The vault password file /home/mto/Data/Proxy/Learning/VM_task_gh/secret was not found
+2023-05-24 15:45:42,285 p=54699 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory
+2023-05-24 15:45:43,630 p=54717 u=mto n=ansible | [WARNING]: Error getting vault password file (default): The vault password file
+/home/mto/Data/Proxy/Learning/VM_task_gh/secret was not found
+
+2023-05-24 15:45:43,630 p=54717 u=mto n=ansible | ERROR! The vault password file /home/mto/Data/Proxy/Learning/VM_task_gh/secret was not found
+2023-05-24 15:46:02,619 p=54744 u=mto n=ansiblelint | Guessed /home/mto/Data/Proxy/Learning/VM_task_gh as project root directory

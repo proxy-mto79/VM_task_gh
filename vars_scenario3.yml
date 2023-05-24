@@ -1,0 +1,8 @@
+---
+target: "127.0.0.1"  # ip_random
+
+directories:
+  - "/opt/data1"
+  - "/opt/data2"
+
+...

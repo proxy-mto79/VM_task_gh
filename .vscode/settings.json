@@ -1,0 +1,10 @@
+{
+    "ansible.python.interpreterPath": "/bin/python",
+    "yaml.schemas": {
+        "kubernetes": [
+            "/*.yaml",
+            "/*.yml"
+        ],
+        "https://json.schemastore.org/yamllint.json": "file:///home/mto/Data/Proxy/Learning/VM_task_gh/vars.yml"
+    }
+}

@@ -1,0 +1,8 @@
+---
+target: "127.0.0.1"  # ip_fedora
+
+directories:
+  - "/opt/data1"
+  - "/opt/data3"
+
+...
